@@ -10,3 +10,4 @@ Notable changes to this repository are documented here.
 - Define CP0.2–CP0.6 and add a dated study plan and acceptance criteria for the CP0.2 math notebooks.
 - Document the ML fundamentals and evaluation requirements for the CP0.3–CP0.4 learning tasks.
 - Add first drafts of the CP0.2 derivatives/numerical-gradient and gradient-descent notebooks.
+- Make the finite-difference step-size experiment cell in Notebook 01 executable independently.
