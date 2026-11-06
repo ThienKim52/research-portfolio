@@ -1,15 +1,15 @@
 # PyTorch CV Fundamentals
 
-## Mục tiêu
+## Goal
 
-Thực hành quy trình computer vision bằng PyTorch, từ tensor và pipeline dữ liệu đến huấn luyện, đánh giá và phân tích lỗi.
+Practice the computer vision workflow with PyTorch, from tensors and data pipelines to training, evaluation, and error analysis.
 
-## Phạm vi dự kiến
+## Planned Scope
 
-- Notebook nền tảng và mã nguồn mô hình.
-- Pipeline huấn luyện/đánh giá có cấu hình rõ ràng.
-- Kiểm thử các thành phần có thể kiểm thử và hướng dẫn tái lập.
+- Fundamentals notebooks and model source code.
+- Clearly configured training and evaluation pipelines.
+- Tests for testable components and reproducibility instructions.
 
-## Checkpoint
+## Checkpoints
 
-Thuộc CP3.1–CP3.3 trong [lộ trình portfolio](../README.md). Chưa có mô hình hoặc kết quả thực nghiệm được công bố.
+Covers CP3.1–CP3.3 in the [portfolio roadmap](../README.md). No models or experimental results have been published yet.

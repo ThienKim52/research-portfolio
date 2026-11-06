@@ -1,15 +1,15 @@
 # Flood Segmentation Compression
 
-## Mục tiêu
+## Goal
 
-Đánh giá sự đánh đổi giữa chất lượng phân đoạn ảnh lũ lụt và chi phí của mô hình sau khi áp dụng phương pháp nén.
+Evaluate the trade-off between flood image segmentation quality and model costs after applying compression methods.
 
-## Phạm vi dự kiến
+## Planned Scope
 
-- Xác minh nguồn, giấy phép và cách chia tập dữ liệu.
-- Thiết lập baseline phân đoạn và metric.
-- So sánh chất lượng, kích thước mô hình và chi phí suy luận trước/sau nén.
+- Verify data sources, licenses, and dataset splitting.
+- Establish a segmentation baseline and metrics.
+- Compare quality, model size, and inference cost before and after compression.
 
-## Checkpoint
+## Checkpoints
 
-Thuộc CP5.1–CP5.3 trong [lộ trình portfolio](../README.md). Chưa có dữ liệu hoặc kết quả thực nghiệm được công bố.
+Covers CP5.1–CP5.3 in the [portfolio roadmap](../README.md). No data or experimental results have been published yet.

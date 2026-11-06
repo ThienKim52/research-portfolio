@@ -1,62 +1,111 @@
 # Research Portfolio
 
-Portfolio cá nhân về nền tảng toán học, machine learning và computer vision. Repository ghi lại quá trình học qua các phần giải thích, triển khai thuật toán, thực nghiệm có thể tái lập và phân tích kết quả.
+A personal portfolio focused on mathematical foundations, machine learning, and computer vision. This repository documents the learning process through explanations, algorithm implementations, reproducible experiments, and analysis.
 
-## Mục tiêu học tập
+## Learning Goals
 
-- Củng cố đại số tuyến tính, giải tích, xác suất và tối ưu hóa phục vụ machine learning.
-- Hiểu thuật toán bằng cách tự triển khai trước khi sử dụng thư viện cấp cao.
-- Sử dụng PyTorch để xây dựng, huấn luyện và đánh giá mô hình computer vision.
-- Thiết kế benchmark và thực nghiệm có đối chứng, ghi rõ dữ liệu, metric và giới hạn.
-- Khảo sát cân bằng giữa chất lượng phân đoạn ảnh và chi phí lưu trữ/tính toán của mô hình.
+- Strengthen the linear algebra, calculus, probability, and optimization foundations needed for machine learning.
+- Understand algorithms by implementing them before relying on high-level libraries.
+- Use PyTorch to build, train, and evaluate computer vision models.
+- Design controlled benchmarks and experiments with clearly documented data, metrics, and limitations.
+- Study the trade-off between image segmentation quality and model storage and computation costs.
 
-## Mục tiêu nghiên cứu
+## Research Goals
 
-Xây dựng các nghiên cứu nhỏ, có thể kiểm chứng và tái lập: xác định câu hỏi, lập baseline, chọn metric phù hợp, so sánh phương pháp trong cùng điều kiện và trình bày giới hạn của kết quả. Hai hướng ứng dụng dự kiến là phát hiện biên trên hiện vật văn hóa và phân đoạn ảnh lũ lụt với các phương pháp nén mô hình.
+Build small, verifiable, and reproducible studies: define a question, establish a baseline, select suitable metrics, compare methods under consistent conditions, and report limitations. The planned application areas are edge detection on cultural object images and flood image segmentation with model compression methods.
 
-Kết quả số liệu, kết luận và trạng thái hoàn thành sẽ chỉ được cập nhật sau khi có thực nghiệm. Dữ liệu lớn, dữ liệu có bản quyền hoặc dữ liệu nhạy cảm không được đưa vào repository nếu chưa xác định rõ quyền sử dụng.
+Numerical results, conclusions, and completion status will only be reported after experiments have been run. Large, copyrighted, or sensitive datasets will not be added to this repository unless their usage rights are clear.
 
-## Lộ trình checkpoint
+## Checkpoint Roadmap
 
-Các checkpoint dưới đây là lộ trình dự kiến theo cấu trúc dự án hiện tại. Mỗi checkpoint cần có ghi chú hoặc mã nguồn tương ứng; các kết quả thực nghiệm cần kèm cấu hình và cách tái lập.
+The checkpoints below are a planned roadmap based on the current project structure. Each checkpoint should include relevant notes or source code; experimental results should include configuration details and reproduction instructions.
 
-### CP0 — Thiết lập portfolio
+### CP0 — Portfolio Setup
 
-- [ ] **CP0.1 — Nền tảng repository:** tạo repository public; hoàn thiện README, CHANGELOG và cấu trúc dự án; liệt kê toàn bộ checkpoint; tạo tag `cp-0.1`.
-- [ ] **CP0.2 — Môi trường và quy ước:** xác định Python/tooling, quy ước đặt tên, quản lý dependency, cấu hình kiểm tra chất lượng và cách tổ chức thí nghiệm.
-- [ ] **CP0.3 — Kế hoạch thực nghiệm:** chốt câu hỏi nghiên cứu, phạm vi dữ liệu, baseline, metric và tiêu chí hoàn thành cho hai dự án ứng dụng.
+- [x] **CP0.1 — Repository foundation:** create a public repository; complete the README, changelog, and project structure; list all checkpoints; create and push the `cp-0.1` tag.
+- [ ] **CP0.2 — Math for ML (due November 27, 2026):** complete two Jupyter notebooks: derivatives and numerical gradients, then gradient descent for one- and two-variable functions. Compare analytical and numerical gradients; visualize convergence for small, medium, and large learning rates.
+- [ ] **CP0.3 — Machine learning fundamentals:** explain datasets, features, labels, train/validation/test splits, supervised and unsupervised learning, classification and regression, loss, overfitting/underfitting, cross-validation, data leakage, and accuracy/precision/recall/F1.
+- [ ] **CP0.4 — Algorithms from scratch:** implement k-nearest neighbors (kNN), a decision tree, and K-means; test them on small datasets and use evaluation methods appropriate to supervised classification versus unsupervised clustering.
+- [ ] **CP0.5 — Reproducible workflow:** define the Python environment, dependency and naming conventions, quality checks, and experiment organization.
+- [ ] **CP0.6 — Application experiment plans:** finalize the research questions, data scope, baselines, metrics, and completion criteria for both application projects.
 
-### CP1 — Nền tảng toán học cho ML (`math-for-ml/`)
+### CP1 — Mathematical Foundations for ML (`math-for-ml/`)
 
-- [ ] **CP1.1 — Đại số tuyến tính:** vector, ma trận, phép biến đổi tuyến tính, trị riêng và trực giác hình học.
-- [ ] **CP1.2 — Giải tích và xác suất:** đạo hàm/gradient, quy tắc dây chuyền, phân phối xác suất và kỳ vọng.
-- [ ] **CP1.3 — Tối ưu hóa:** hàm mất mát, gradient descent, learning rate và liên hệ với việc huấn luyện mô hình.
+- [ ] **CP1.1 — Linear algebra:** vectors, matrices, linear transformations, eigenvalues, and geometric intuition.
+- [ ] **CP1.2 — Calculus and probability:** derivatives/gradients, the chain rule, probability distributions, and expectation.
+- [ ] **CP1.3 — Optimization:** loss functions, gradient descent, learning rates, and their connection to model training.
 
-### CP2 — Machine learning từ đầu (`ml-methods-from-scratch/`)
+### CP2 — Machine Learning from Scratch (`ml-methods-from-scratch/`)
 
-- [ ] **CP2.1 — Dữ liệu và baseline:** pipeline dữ liệu, chia tập, tiền xử lý và metric phù hợp.
-- [ ] **CP2.2 — Thuật toán cốt lõi:** triển khai một số thuật toán ML cơ bản, nêu rõ giả định và kiểm thử bằng ví dụ nhỏ.
-- [ ] **CP2.3 — Đánh giá và phân tích:** so sánh với thư viện tham chiếu, phân tích lỗi và ghi lại giới hạn của triển khai.
+- [ ] **CP2.1 — Data and baselines:** data pipelines, dataset splits, preprocessing, and appropriate metrics.
+- [ ] **CP2.2 — Core algorithms:** implement selected fundamental ML algorithms, state their assumptions, and test them on small examples.
+- [ ] **CP2.3 — Evaluation and analysis:** compare against reference libraries, analyze errors, and document implementation limitations.
 
-### CP3 — Computer vision với PyTorch (`pytorch-cv-fundamentals/`)
+### CP3 — Computer Vision with PyTorch (`pytorch-cv-fundamentals/`)
 
-- [ ] **CP3.1 — PyTorch căn bản:** tensor, autograd, `Dataset`/`DataLoader` và vòng lặp huấn luyện.
-- [ ] **CP3.2 — Mô hình và huấn luyện:** xây dựng CNN, theo dõi quá trình học và lưu/tải checkpoint.
-- [ ] **CP3.3 — Đánh giá computer vision:** thiết lập baseline thị giác máy tính, metric, phân tích lỗi và quy trình tái lập.
+- [ ] **CP3.1 — PyTorch fundamentals:** tensors, autograd, `Dataset`/`DataLoader`, and training loops.
+- [ ] **CP3.2 — Models and training:** build a CNN, monitor training, and save/load checkpoints.
+- [ ] **CP3.3 — Computer vision evaluation:** establish a computer vision baseline, define metrics, analyze errors, and document a reproducible workflow.
 
-### CP4 — Benchmark phát hiện biên (`cultural-object-edge-benchmark/`)
+### CP4 — Cultural Object Edge Benchmark (`cultural-object-edge-benchmark/`)
 
-- [ ] **CP4.1 — Phạm vi benchmark:** xác định câu hỏi, nguồn dữ liệu được phép dùng, tiêu chí gán nhãn và quy trình chia tập.
-- [ ] **CP4.2 — Phương pháp và metric:** chọn baseline phát hiện biên, chuẩn hóa đầu vào/đầu ra và xác định metric đánh giá.
-- [ ] **CP4.3 — Thực nghiệm:** chạy so sánh trong điều kiện nhất quán, phân tích kết quả và công bố giới hạn/tính tái lập.
+- [ ] **CP4.1 — Benchmark scope:** define the question, permitted data sources, annotation criteria, and data-splitting procedure.
+- [ ] **CP4.2 — Methods and metrics:** select edge-detection baselines, standardize inputs/outputs, and define evaluation metrics.
+- [ ] **CP4.3 — Experiments:** compare methods under consistent conditions, analyze results, and report limitations and reproducibility details.
 
-### CP5 — Phân đoạn lũ lụt và nén mô hình (`flood-segmentation-compression/`)
+### CP5 — Flood Segmentation and Model Compression (`flood-segmentation-compression/`)
 
-- [ ] **CP5.1 — Baseline phân đoạn:** xác định dữ liệu và quyền sử dụng, pipeline tiền xử lý, mô hình baseline và metric.
-- [ ] **CP5.2 — Nén mô hình:** khảo sát phương pháp nén phù hợp; đo chất lượng, kích thước mô hình và chi phí suy luận.
-- [ ] **CP5.3 — So sánh và báo cáo:** so sánh baseline với mô hình nén, phân tích đánh đổi và trình bày hướng phát triển tiếp theo.
+- [ ] **CP5.1 — Segmentation baseline:** identify the dataset and usage rights, preprocessing pipeline, baseline model, and metrics.
+- [ ] **CP5.2 — Model compression:** investigate suitable compression methods and measure quality, model size, and inference cost.
+- [ ] **CP5.3 — Comparison and report:** compare the baseline with compressed models, analyze trade-offs, and describe next steps.
 
-## Cấu trúc repository
+## CP0.2 Study Plan
+
+**Deadline:** Friday, November 27, 2026.
+**Planning assumption:** 8–10 study hours per week. If your available time differs, keep the same sequence and adjust the number of sessions.
+
+| Dates | Focus | Study tasks | Deliverable |
+|---|---|---|---|
+| Nov 7–8 | Setup and baseline | Confirm the notebook environment; review derivatives, partial derivatives, and Python functions; run the provided finite-difference example. | Notebook files created with headings, goals, and a working kernel. |
+| Nov 9–15 | Notebook 01: derivatives and numerical gradients | Work through one-variable and multivariable derivatives; implement central finite differences; compare numerical and analytical gradients over several inputs and epsilon values. | Notebook 01 with explanations, implementations, comparisons, and a short error analysis. |
+| Nov 16–22 | Notebook 02: gradient descent | Implement gradient descent for a one-variable and a two-variable function; try small, medium, and deliberately too-large learning rates; plot objective values and parameter trajectories. | Notebook 02 with runnable experiments and an explanation of convergence and divergence. |
+| Nov 23–27 | Review and release | Restart and run both notebooks from top to bottom; check outputs, labels, plots, and markdown; explain the results without reading the code; commit the finished work. | Two reproducible notebooks and a short completion note linked from `math-for-ml/README.md`. |
+
+### Notebook acceptance criteria
+
+**Notebook 01 — Derivatives and Numerical Gradient**
+
+- Explain one-variable derivatives, multivariable derivatives, and partial derivatives using worked examples.
+- Implement the supplied example, `f(x) = x**2 + 3*x + 2`, and show that its analytical derivative at `x = 2` agrees with the central finite-difference estimate within a stated tolerance.
+- Extend the numerical-gradient implementation to a multivariable function and compare each component with its analytical gradient.
+- Briefly explain how the finite-difference step size `eps` affects numerical error.
+
+**Notebook 02 — Gradient Descent**
+
+- Implement gradient descent without using an optimizer library for both one- and two-variable functions.
+- Record objective value and parameters at each iteration; plot convergence and, for the two-variable case, the parameter path.
+- Compare a small, moderate, and too-large learning rate. Explain divergence using the update rule or observed values, not just the plot.
+- State the initial point, stopping criterion, learning rates, and iteration limit so another learner can reproduce the experiment.
+
+Suggested functions with known minima are `f(x) = x**2 + 3*x + 2` and `g(x, y) = (x - 2)**2 + 2*(y + 1)**2`. Choose learning rates based on these functions and verify the behavior rather than assuming a rate is stable.
+
+## CP0.3 and CP0.4 Learning Notes
+
+Before computer vision, be able to explain these machine learning fundamentals in your own words:
+
+1. Dataset, feature, and label.
+2. Training, validation, and test sets, and why the test set is held out.
+3. Supervised and unsupervised learning.
+4. Classification and regression.
+5. Loss functions.
+6. Overfitting and underfitting.
+7. Cross-validation.
+8. Data leakage and how to prevent it.
+9. Accuracy, precision, recall, and F1-score, including when accuracy can mislead.
+
+For CP0.4, implement kNN and a decision tree as supervised classifiers, and K-means as an unsupervised clustering algorithm. Use stratified 5-fold cross-validation for the supervised classifiers when the dataset and class counts support it; fit preprocessing only on each training fold. Do not apply that same protocol to K-means: use a clustering metric such as Silhouette Score when labels are unavailable, or Adjusted Rand Index when reference labels are available. Explain what each metric measures and its limitations.
+
+## Repository Structure
 
 ```text
 Research-portfolio/
@@ -70,13 +119,10 @@ Research-portfolio/
 └── flood-segmentation-compression/
 ```
 
-Mỗi thư mục dự án có README riêng mô tả phạm vi và trạng thái. Dữ liệu, mô hình đã huấn luyện và kết quả lớn sẽ được quản lý riêng; không commit các tệp này trước khi kiểm tra giấy phép và dung lượng.
+Each project folder has its own README describing its scope and status. Datasets, trained models, and large result files will be managed separately; they should not be committed before checking licensing and file size.
 
-## Trạng thái
+## Status
 
-- **CP0.1:** tài liệu và cấu trúc local đang được chuẩn bị; việc xuất bản repository public, push và tag trên GitHub cần hoàn tất sau khi xác thực GitHub.
-- **Các checkpoint còn lại:** chưa bắt đầu.
-
-## Ngôn ngữ
-
-Tài liệu portfolio hiện viết bằng tiếng Việt; tên dự án và thuật ngữ kỹ thuật được giữ bằng tiếng Anh khi phù hợp.
+- **CP0.1:** complete; the public GitHub repository, `main` branch, and `cp-0.1` tag are present on GitHub.
+- **CP0.2:** planned; deadline November 27, 2026.
+- **Remaining checkpoints:** not started.

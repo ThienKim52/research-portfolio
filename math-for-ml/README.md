@@ -1,15 +1,18 @@
 # Math for ML
 
-## Mục tiêu
+## Goal
 
-Ghi chép và thực hành các nền tảng toán học cần thiết để hiểu machine learning: đại số tuyến tính, giải tích, xác suất và tối ưu hóa.
+Document and practice the mathematical foundations needed to understand machine learning: linear algebra, calculus, probability, and optimization.
 
-## Phạm vi dự kiến
+## CP0.2 Deliverables
 
-- Trực giác, định nghĩa và ví dụ tính toán nhỏ.
-- Liên hệ mỗi chủ đề với mô hình hoặc thuật toán ML cụ thể.
-- Bài tập và notebook có thể chạy lại.
+Due November 27, 2026:
 
-## Checkpoint
+1. **Notebook 01 — Derivatives and Numerical Gradient:** one-variable and multivariable derivatives, partial derivatives, central finite differences, and analytical-versus-numerical gradient comparisons.
+2. **Notebook 02 — Gradient Descent:** a from-scratch implementation for one- and two-variable functions, experiments with small/moderate/too-large learning rates, and convergence plots.
 
-Thuộc CP1.1–CP1.3 trong [lộ trình portfolio](../README.md). Chưa có nội dung học tập được công bố.
+Keep explanations, code, plots, and conclusions together in each notebook. Run each notebook from a fresh kernel before marking it complete.
+
+## Checkpoints
+
+Covers CP0.2 and CP1.1–CP1.3 in the [portfolio roadmap](../README.md). The CP0.2 notebooks are planned and have not yet been published.

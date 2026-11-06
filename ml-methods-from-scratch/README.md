@@ -1,15 +1,18 @@
 # ML Methods from Scratch
 
-## Mục tiêu
+## Goal
 
-Triển khai các thuật toán machine learning cơ bản để làm rõ cách chúng hoạt động, các giả định và các bước đánh giá.
+Implement fundamental machine learning algorithms to clarify how they work, their assumptions, and how they are evaluated.
 
-## Phạm vi dự kiến
+## CP0.4 Deliverables
 
-- Ví dụ và bộ dữ liệu nhỏ phục vụ kiểm thử.
-- Mã triển khai, kiểm thử và notebook giải thích.
-- So sánh với implementation tham chiếu khi phù hợp.
+- Implement kNN and a decision tree for supervised classification.
+- Implement K-means for unsupervised clustering.
+- Add small tests for predictions, edge cases, and convergence behavior.
+- Compare supervised classifiers with stratified 5-fold cross-validation when appropriate; do not apply that protocol to K-means.
+- Evaluate K-means with Silhouette Score when labels are unavailable, or Adjusted Rand Index when reference labels are available.
+- Document preprocessing, metric choice, and limitations; prevent data leakage by fitting preprocessing inside each cross-validation training fold.
 
-## Checkpoint
+## Checkpoints
 
-Thuộc CP2.1–CP2.3 trong [lộ trình portfolio](../README.md). Chưa có thuật toán hoặc kết quả thực nghiệm được công bố.
+Covers CP0.3–CP0.4 and CP2.1–CP2.3 in the [portfolio roadmap](../README.md). No algorithms or experimental results have been published yet.

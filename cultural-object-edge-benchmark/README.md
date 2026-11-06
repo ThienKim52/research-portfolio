@@ -1,15 +1,15 @@
 # Cultural Object Edge Benchmark
 
-## Mục tiêu
+## Goal
 
-Khảo sát bài toán phát hiện biên trên ảnh hiện vật văn hóa thông qua một benchmark có quy trình dữ liệu, baseline và đánh giá được mô tả rõ.
+Study edge detection on cultural object images through a benchmark with a clearly documented data, baseline, and evaluation workflow.
 
-## Phạm vi dự kiến
+## Planned Scope
 
-- Xác minh quyền sử dụng dữ liệu và quy trình gán nhãn trước khi đưa dữ liệu vào sử dụng.
-- Xác định baseline, cách chuẩn hóa và metric trước khi so sánh.
-- Báo cáo điều kiện thực nghiệm, kết quả và giới hạn.
+- Verify data usage rights and annotation procedures before using any data.
+- Define baselines, normalization, and metrics before comparing methods.
+- Report experimental conditions, results, and limitations.
 
-## Checkpoint
+## Checkpoints
 
-Thuộc CP4.1–CP4.3 trong [lộ trình portfolio](../README.md). Chưa có dữ liệu hoặc kết quả benchmark được công bố.
+Covers CP4.1–CP4.3 in the [portfolio roadmap](../README.md). No data or benchmark results have been published yet.
