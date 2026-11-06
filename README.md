@@ -75,6 +75,7 @@ The checkpoints below are a planned roadmap based on the current project structu
 
 **Notebook 01 — Derivatives and Numerical Gradient**
 
+- [Notebook file](./math-for-ml/01-derivatives-and-numerical-gradient.ipynb).
 - Explain one-variable derivatives, multivariable derivatives, and partial derivatives using worked examples.
 - Implement the supplied example, `f(x) = x**2 + 3*x + 2`, and show that its analytical derivative at `x = 2` agrees with the central finite-difference estimate within a stated tolerance.
 - Extend the numerical-gradient implementation to a multivariable function and compare each component with its analytical gradient.
@@ -82,6 +83,7 @@ The checkpoints below are a planned roadmap based on the current project structu
 
 **Notebook 02 — Gradient Descent**
 
+- [Notebook file](./math-for-ml/02-gradient-descent.ipynb).
 - Implement gradient descent without using an optimizer library for both one- and two-variable functions.
 - Record objective value and parameters at each iteration; plot convergence and, for the two-variable case, the parameter path.
 - Compare a small, moderate, and too-large learning rate. Explain divergence using the update rule or observed values, not just the plot.
@@ -113,6 +115,8 @@ Research-portfolio/
 ├── CHANGELOG.md
 ├── .gitignore
 ├── math-for-ml/
+│   ├── 01-derivatives-and-numerical-gradient.ipynb
+│   └── 02-gradient-descent.ipynb
 ├── ml-methods-from-scratch/
 ├── pytorch-cv-fundamentals/
 ├── cultural-object-edge-benchmark/
@@ -124,5 +128,5 @@ Each project folder has its own README describing its scope and status. Datasets
 ## Status
 
 - **CP0.1:** complete; the public GitHub repository, `main` branch, and `cp-0.1` tag are present on GitHub.
-- **CP0.2:** planned; deadline November 27, 2026.
+- **CP0.2:** in progress; notebook drafts are ready for learner review and execution. Deadline November 27, 2026.
 - **Remaining checkpoints:** not started.
